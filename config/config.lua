@@ -11,4 +11,5 @@ Config.webhooks = {
     ["ems"] = "https://discord.com/api/webhooks/your-webhook-url",
 }
 
+-- freech needed this :)
 return Config
