@@ -4,3 +4,8 @@ RegisterCommand("duty", function(source, args)
 
     TriggerServerEvent("fd-duty:onDuty", department, callsign)
 end)
+
+RegisterCommand("offduty", function(source, args)
+    local department = args[1]
+    TriggerServerEvent("fd-duty:offDuty", department)
+end)
